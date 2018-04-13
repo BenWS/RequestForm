@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="47cf96a4-27fd-4cad-b5a9-07cc2d4668e4" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://wp13cd/EmailWebService/EmailWebService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="EmailWebService.disco" MetadataType="Disco" ID="11d541d9-33f8-4a92-b9d2-4c454b9f3ebf" SourceId="1" SourceUrl="http://wp13cd/EmailWebService/EmailWebService.svc?disco" />
+    <MetadataFile FileName="EmailWebService.wsdl" MetadataType="Wsdl" ID="e152e4a6-9728-4eed-859e-f3bf969e3ba0" SourceId="1" SourceUrl="http://wp13cd/EmailWebService/EmailWebService.svc?wsdl" />
+    <MetadataFile FileName="EmailWebService.xsd" MetadataType="Schema" ID="4c183a71-b806-48bb-b487-ebdab3d3492f" SourceId="1" SourceUrl="http://wp13cd/EmailWebService/EmailWebService.svc?xsd=xsd2" />
+    <MetadataFile FileName="EmailWebService1.xsd" MetadataType="Schema" ID="537dfc49-208c-484c-a932-632c8e99f02d" SourceId="1" SourceUrl="http://wp13cd/EmailWebService/EmailWebService.svc?xsd=xsd1" />
+    <MetadataFile FileName="EmailWebService2.xsd" MetadataType="Schema" ID="98ba82b9-8847-4491-a3bf-0f06f344b5dd" SourceId="1" SourceUrl="http://wp13cd/EmailWebService/EmailWebService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
