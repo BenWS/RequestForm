@@ -1,0 +1,58 @@
+﻿@using SSRSEmailForm.Models
+@model SSRSEmailForm.Models.TestViewModel
+
+@{
+    ViewBag.Title = "Project Request Form";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<img src="/Images/Reserved.ReportViewerWebControl.png" height=50 />
+<h2>@ViewBag.Title</h2>
+<p class="text-info">
+    Please provide the following information:
+</p>
+
+<div class="row">
+    <div class="col-md-8">
+        <section id="submit-form">
+            <form action="/Inquiry/Form" class="form-horizontal" method="post" role="form">
+                <div class="form-group">
+                    @*This line is doing ...*@
+                    <label class="col-md-2 control-label" for="Name">Your Name*</label>
+                    <div class="col-md-10">
+                        <input class="form-control" data-val="true" data-val-required="The Your Name* field is required." id="Name" name="Name" type="text" value="">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label" for="Context">Context*</label>
+                    <div class="col-md-10">
+                        <textarea class="form-control" cols="20" data-val="true" data-val-required="The Context* field is required." id="Context" name="Context" rows="2"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label" for="Problem">Pain Point/Problem*</label>
+                    <div class="col-md-10">
+                        <textarea class="form-control" cols="20" data-val="true" data-val-required="The Pain Point/Problem* field is required." id="Problem" name="Problem" rows="2"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label" for="Goal">What is the goal of this deliverable?*</label>
+                    <div class="col-md-10">
+                        <textarea class="form-control" cols="20" data-val="true" data-val-required="The What is the goal of this deliverable?* field is required." id="Goal" name="Goal" rows="2"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label" for="ReportLink">Link to Existing Report (if applicable)</label>
+                    <div class="col-md-10">
+                        <input class="form-control" id="ReportLink" name="ReportLink" type="text" value="">
+                    </div>
+                </div>         
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Submit" class="btn btn-default">
+                    </div>
+                </div>
+            </form> 
+        </section>
+    </div>
+</div>

@@ -1,0 +1,75 @@
+.NET MVC Applications
+
+Three Main Components:
+
+	- Models
+	- Views
+	- Controllers
+
+
+Important Files in this application:
+
+Models Folder
+
+	InquiryViewModels.cs
+
+Controllers Folder
+
+	InquiryController.cs
+
+Views Folder
+
+	Inquiry/Success.cshtml
+	Inquiry/Test.cshtml	
+
+=======================================
+How does it work? 
+
+
+In generic MVC applications:
+
+The Controller processes Model data and updates the Model 
+The Model is the Application Data 
+The View renders data from Model
+
+
+In .NET MVC
+
+Same as above with a couple of additional functions:
+
+Views trigger Controllers through either form submissions or hyperlinks (POST or GET requests, respectively)
+Controller methods return ActionResult objects, and in doing so render Views
+=======================================
+
+Process examples from application:
+
+User visits Inquiry/Test
+Test() InquiryController method is triggered
+Test.cshtml View page is returned
+
+User visits /Inquiry/Success
+Success() InquiryController method is triggered
+Success.cshtml View page is returned
+=======================================
+
+
+
+
+/**QUESTIONS**/
+
+
+- C# attributes; explain these in detail of application and formulate bigger picture understanding in doing so
+- What does the model {get; set;} syntax mean?
+
+=======================================
+Razor Syntax
+
+- A view can be created without any of the Html helper classes
+- Form.cshtml defaults to using FormViewModel if no Model class is instantiated, but can use TestViewModel object 
+- Furthermore, Razor is useful for when we're creating more dynamic HTML; for instance when the size of an HTML table depends on a variable source of data (SQL table for instance)
+
+https://docs.microsoft.com/en-us/aspnet/core/mvc/views/razor?view=aspnetcore-2.1
+=======================================
+{get; set;} Syntax
+
+

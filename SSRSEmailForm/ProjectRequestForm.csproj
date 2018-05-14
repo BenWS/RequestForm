@@ -266,6 +266,8 @@
     </None>
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Inquiry\Success.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Inquiry\Form.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
